@@ -1,6 +1,6 @@
 const Titulo = () => {
-    return(
-        <h1> Teste de nome </h1>
-    )
+
+    return <p>Titulo de teste da página titulo</p>
 }
+
 export default Titulo;

@@ -1,10 +1,18 @@
 import Titulo from '../Title/index.jsx';
+import TextCont from '../TextContent/index.jsx';
+import ButtonSave from '../ButtonSave/index.jsx';
 
-const App = () =>{
-    return(
-        <div>
-            <Titulo/><Titulo/>
-        </div>
+
+
+const Home = () =>{
+    
+    return( <div>
+            <Titulo/>
+            <TextCont/>
+            <ButtonSave/>
+            </div>    
     )
+
 }
-export default App;
+
+export default Home;
